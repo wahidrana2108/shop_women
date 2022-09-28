@@ -8,8 +8,12 @@
     padding-left: 50px;
 }
 
+.pd_start{
+    padding-left: 110px;
+}
+
 .pd_end{
-    padding-right: 250px;
+    padding-right: 200px;
 }
 
 .gm{
@@ -22,3 +26,83 @@
     font-weight: 900;
     font-size: larger;
 }
+
+.hover img :hover{
+    background-color: black;
+}
+
+.hover .top-left {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+  }
+
+
+
+  /* card hover */
+.details{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.hover:hover .details{
+    display: block;
+    flex-wrap: wrap;
+}
+
+.hover:hover .photo img{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+
+.card-img{
+    height: 320px;
+    width: 213px;
+}
+
+.card{
+    --bs-card-bg: none;
+    --bs-card-border-color: none;
+}
+
+
+/* img overlay */
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 600px;
+  }
+  .image2 {
+    position: absolute;
+    top: -185px;
+    left: 85px;
+    rotate: 90deg;
+    height: 770px;
+    width: 455px
+  }
+
+  .image3 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* .parent .image1{
+    width: 100%;
+  }
+  .parent .image2{
+    height: 100%;
+  } */
