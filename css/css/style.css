@@ -497,9 +497,3 @@ li span {
 .img img{
   height: 500px;
 }
-
-
-.no-border{
-  --bs-card-border-color: var(--bs-border-bg);
-  --bs-card-box-shadow: var(--bs-border-bg);
-}
