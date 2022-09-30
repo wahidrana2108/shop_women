@@ -489,3 +489,17 @@ li span {
         font-size: 13px;
     }
 }
+
+.background{
+  background-color: rgb(219, 219, 219);
+}
+
+.img img{
+  height: 500px;
+}
+
+
+.no-border{
+  --bs-card-border-color: var(--bs-border-bg);
+  --bs-card-box-shadow: var(--bs-border-bg);
+}
