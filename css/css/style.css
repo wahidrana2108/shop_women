@@ -497,3 +497,36 @@ li span {
 .img img{
   height: 500px;
 }
+
+
+.line1{
+  width: 325px;
+  height: 220px;
+  border: 10px solid gray;
+  position: absolute;
+}
+
+.line2{
+  width: 80px;
+  height: 220px;
+  border: 10px solid white;
+  position: relative;
+  top: -10px;
+  margin: auto;
+}
+
+.text{
+  position: relative;
+  top: -15px;
+}
+
+.text2{
+  position: relative;
+  left: -70px;
+  word-break: normal;
+  text-align: center;
+}
+
+.green-text{
+  color: green;
+}
