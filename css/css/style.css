@@ -245,7 +245,11 @@ img {
 .image2 {
   position: absolute;
   top: 150px;
-  left: 100px;
+}
+
+.para{
+  width:70%;
+  text-align: center;
 }
 
 .off-img{
@@ -504,6 +508,8 @@ li span {
   height: 220px;
   border: 10px solid gray;
   position: absolute;
+  display: flex;
+  justify-content: end;
 }
 
 .line2{
@@ -526,11 +532,13 @@ li span {
 
 .text{
   position: relative;
-  top: -25px;
+  top: -20px;
 }
 
-.text2{
+.text1{
   position: relative;
+}
+.text2{
   word-break: normal;
   text-align: center;
 }
